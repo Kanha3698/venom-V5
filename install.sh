@@ -1,7 +1,7 @@
 mkdir -p .devcontainer
 cat <<EOL > .devcontainer/devcontainer.json
 {
-    "name": "My Codespace",
+    "name": "venom",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
     "postStartCommand": "python /workspaces/venom-V5/main.py",
     "customizations": {
